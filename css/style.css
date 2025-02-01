@@ -1,0 +1,226 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", serif;
+}
+body {
+    background-color: #e8e2e240;
+    overflow-x: hidden;
+}
+
+/* main navbar  */
+nav
+{
+    height: 10vh;
+    width: 100%;
+    background-color:white;
+}
+
+/* first nav items-container */
+nav #navbar 
+{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    cursor: pointer;
+    
+}
+
+/* website logo */
+#navbar #website-logo img {
+    position: relative;
+    left:50px;
+    height:36px;
+    margin:0px 23px;
+    margin-top:3px;
+}
+
+/* website search bar */
+#navbar #search-bar input 
+{
+    padding:5px 0px;
+    width: 500px;
+    font-size:19px;
+    border-top-right-radius:8px;
+    border-bottom-right-radius:8px;
+    background-color:#F9F9F9;
+    color:black;
+    outline: none;
+    border: none;
+}
+.search-icon
+{
+    padding:10px 0px;
+    padding-right:10px;
+    padding-left:18px;
+    font-size:20px;
+    background-color:#F9F9F9;
+    border-top-left-radius:8px;
+    border-bottom-left-radius:8px;
+}
+#search-bar .shift
+{
+    margin-left:100px;
+}
+
+#navbar #nav-right-box 
+{
+    width: 700px;
+    margin-right:50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+/* for box1 and box3*/
+#nav-right-box a 
+{
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 23px;
+    font-weight:400;
+}
+#nav-right-box #box1 a 
+{
+    font-size:19px;
+}
+#nav-right-box #box2 button
+ {
+    text-align:center;
+    font-size:19px;
+    background-color: white;
+    color:black;
+    border:none;
+    font-weight:400;
+}
+
+/* subnavbar items-container */
+nav #sub-navbar {
+    height:2vh;
+    width:98%;
+    display:flex;
+    background-color:white;
+    align-items:center;
+    justify-content:space-around;
+    padding:63px 0px;
+    margin:8px 11px;
+}
+nav #sub-navbar .sub-navbar-card
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+}
+nav #sub-navbar .sub-navbar-card .item-name
+{
+    font-weight:550;
+    text-decoration:none;
+    color: black;
+    font-size: 16px;
+    margin-top:6px;
+}
+
+nav #sub-navbar .sub-navbar-card img
+{
+    height: 65px;
+} 
+
+.slide-bar
+{
+    margin:0 12px;
+    margin-top:150px;
+    border:1px solid #dadada; 
+}
+/* items card */
+.cards .card 
+{
+    width:98%;
+    margin: 13px 12px;
+    height: 350px;
+    border:1px solid #dadada;
+    border-radius:6px;
+    background-color: white;
+}
+.items-container .cards .card .items
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* card items */
+.items-container .cards .card .card-item 
+{
+    height:203px;
+    width:100%;
+    margin:0 8px;
+    border: 1.2px solid black;
+    border-radius:3px;
+}
+
+/* card item images */
+.cards .card .card-item img
+{
+    height:100%;
+    width:100%;
+}
+
+/* card heading */
+.heading 
+{
+    margin: 25px 15px;
+    font-size:1.6rem;
+}
+
+/* card item price info */
+.cards .card .card-item .item-info 
+{
+    color:black;
+    font-size:18px;
+    font-weight:500px;
+    margin-top:8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* website footer */
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 14vh;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight:600;
+}
+
+/* hoverEffect */
+nav #sub-navbar .sub-navbar-card .item-name:hover
+{
+    color:blue;
+}
+
+.items-container .cards .card .card-item .item-info:hover {
+    color:rgb(131, 126, 126);
+}
+
+.heading:hover {
+    color: rgb(rgba(191, 17, 17, 0.613), rgb(25, 210, 25), rgba(15, 15, 220, 0.727));
+    font-size:1.7rem;
+}
+
+
+
+
+
+
+
+
