@@ -18,4 +18,4 @@
 </ul>
 <h2>View Live</h2>
 <p>Check out the live version of the project here:  
-<a href="http://flipcart.com/" target="_blank"><b>Flipkart Home Page - Live Demo</b></a></p>
+<a href="https://kartik-sonar123.github.io/flipkart-static-home-page-clone/" target="_blank"><b>Flipkart Home Page - Live Demo</b></a></p>
